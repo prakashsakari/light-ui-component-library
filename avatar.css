@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+:root {
+    --primary-color: #064e3b;
+    --text-color: #fff;
+    --border-color: #fff;
+    --green-badge: #059669;
+    --red-badge: #dc2626;
+    --yellow-badge: #facc15;
+}
+
+.container {
+    margin: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    gap: 1rem;
+}
+
+
+.avatar {
+    border-radius: 50%;
+}
+
+
+.avatar-large-size {
+    width: 8rem;
+    height: 8rem;
+    font-size: 3rem;
+}
+
+.avatar-medium-size {
+    width: 5rem;
+    height: 5rem;
+    font-size: 1.5rem;
+}
+
+.avatar-small-size {
+    width: 3rem;
+    height: 3rem;
+    font-size: .875rem;
+}
+
+.avatar-image-round {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.avatar-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+}
+
+.badge {
+    position: relative;
+}
+
+.avatar-badge {
+    border-radius: 50%;
+    border: 1px solid var(--border-color);
+    position: absolute;
+
+}
+
+.online {
+    background-color: var(--green-badge);
+    width: 1rem;
+    height: 1rem;
+    right: 0.8rem;
+    bottom: 0.5rem;
+}
+
+.offline {
+    background-color: var(--red-badge);
+    width: 0.8rem;
+    height: 0.8rem;
+    right: 0.5rem;
+    bottom: 0.3rem;
+}
+
+.dnd {
+    background-color: var(--yellow-badge);
+    width: 0.6rem;
+    height: 0.6rem;
+    right: 0.4rem;
+    bottom: -0.1rem;
+}
+
+.icon-badge {
+    display: inline-block;
+    position: relative;
+}
+
+.badge-number {
+    width: 1.2rem;
+    height: 1.2rem;
+    font-size: .875rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-color);
+    top: 0;
+    right: 0;
+    background-color: var(--red-badge);
+}
