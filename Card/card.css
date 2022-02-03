@@ -1,0 +1,171 @@
+@import url("/styles/reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap');
+@import url("/Button/button.css");
+
+:root {
+    --background-color: #f3f4f6;
+    --card-background: #fff;
+    --border-color: #d1d5db;
+    --primary-color: #064e3b;
+    --text-color: #fff;
+    --overlay: rgba(0, 0, 0, .3);
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.5;
+    letter-spacing: .8px;
+}
+
+.container {
+    margin: 2rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+
+.c-flex {
+    display: flex;
+}
+
+.shadow {
+    box-shadow: 2px 2px 5px 4px rgba(0, 0, 0, .1);
+}
+
+.card-text-body {
+    width: 25rem;
+    background-color: var(--card-background);
+    border-radius: .25rem;
+}
+
+.padding {
+    padding: .75rem .875rem;
+}
+
+.card-header {
+    border-bottom: 1px solid var(--border-color);
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.card-hori-image-container {
+    width: 250px
+}
+
+.card-content {
+    font-size: .875rem;
+}
+
+.card-vertical {
+    width: 300px;
+    background-color: var(--card-background);
+}
+
+.card-horizontal {
+    width: 600px;
+    background-color: var(--card-background);
+}
+
+
+.card-image {
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-badge {
+    position: relative;
+}
+
+.badge {
+    position: absolute;
+    left: 0;
+    top: 1rem;
+    padding: .25rem .5rem;
+    border-radius: .35rem;
+    font-weight: bold;
+}
+
+.bg-primary {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+}
+
+.badge-close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 1rem;
+    width: 2rem;
+    height: 2rem;
+    background-color: transparent;
+    border: none;
+    opacity: .5;
+}
+
+.card-details {
+    padding: 1rem;
+}
+
+.card-horizontal-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-horizontal-details .cta-btn {
+    margin-top: auto;
+}
+
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.card-description {
+    font-size: .875rem;
+}
+
+.card-price {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.price-strike-through {
+    text-decoration-line: line-through;
+}
+
+.discount {
+    color: var(--primary-color);
+}
+
+.btn-margin {
+    margin-top: 1rem;
+}
+
+.text-overlay-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--overlay);
+    font-size: 2rem;
+    font-weight: 500;
+    opacity: 0;
+}
+
+.text-overlay:hover {
+    opacity: 1;
+}
