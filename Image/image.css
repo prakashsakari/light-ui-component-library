@@ -1,0 +1,15 @@
+@import url("/styles/reset.css");
+
+.container-img-responsive {
+    width: 18.75rem;
+}
+
+.img-responsive {
+    max-width: 100%;
+}
+
+.img-round {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}
