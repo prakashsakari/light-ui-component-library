@@ -1,0 +1,65 @@
+@import url(/styles/reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap');
+
+:root {
+    --text-color-primary: #e4e4e7;
+    --text-color-secondary: #6366f1;
+    --background-color: #27272a;
+    --hover-color: #52525b;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.baseline {
+    bottom: 3rem;
+    left: 40%;
+}
+
+.leading {
+    bottom: 3rem;
+    right: 1rem;
+}
+
+.flex {
+    display: flex;
+    gap: 1.3rem;
+    align-items: center;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.toast {
+    background-color: var(--background-color);
+    color: var(--text-color-primary);
+    padding: 0.35rem 1rem;
+    font-size: 1rem;
+    border-radius: 4px;
+}
+
+.close {
+    border-radius: 50%;
+    height: 2.25rem;
+    width: 2.25rem;
+    color: var(--text-color-primary);
+}
+
+.btn {
+    border: none;
+    background-color: transparent;
+}
+
+.btn:hover {
+    cursor: pointer;
+    opacity: .85;
+}
+
+.retry {
+    color: var(--text-color-secondary);
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
