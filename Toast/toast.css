@@ -1,28 +1,32 @@
-@import url(/styles/reset.css);
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap');
+@import url("/styles/reset.css");
+@import url("/styles/utility.css");
 
-:root {
-    --text-color-primary: #e4e4e7;
-    --text-color-secondary: #6366f1;
-    --background-color: #27272a;
-    --hover-color: #52525b;
-}
-
-body {
-    font-family: 'Raleway', sans-serif;
-}
-
-.baseline {
+.bottom-center {
     bottom: 3rem;
     left: 40%;
 }
 
-.leading {
+.bottom-right {
     bottom: 3rem;
     right: 1rem;
 }
 
-.flex {
+.bottom-left {
+    bottom: 3rem;
+    left: 1rem;
+}
+
+.top-left {
+    top: 3rem;
+    left: 1rem;
+}
+
+.top-right {
+    top: 3rem;
+    right: 1rem;
+}
+
+.t-flex {
     display: flex;
     gap: 1.3rem;
     align-items: center;
@@ -33,8 +37,9 @@ body {
 }
 
 .toast {
-    background-color: var(--background-color);
-    color: var(--text-color-primary);
+    width: max-content;
+    background-color: var(--toast-background-color);
+    color: var(--text-color-secondary);
     padding: 0.35rem 1rem;
     font-size: 1rem;
     border-radius: 4px;
@@ -44,7 +49,7 @@ body {
     border-radius: 50%;
     height: 2.25rem;
     width: 2.25rem;
-    color: var(--text-color-primary);
+    color: var(--text-color-secondary);
 }
 
 .btn {
@@ -58,7 +63,7 @@ body {
 }
 
 .retry {
-    color: var(--text-color-secondary);
+    color: var(--btn-retry-text-color);
     font-family: 'Raleway', sans-serif;
     font-size: 1rem;
     letter-spacing: 1px;
