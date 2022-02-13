@@ -10,6 +10,7 @@
 @import url("/Navigation/nav.css");
 @import url("/Rating/rating.css");
 @import url("/Toast/toast.css");
+@import url("/main.css");
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap');
 
 
@@ -47,7 +48,7 @@ body {
     top: 0;
     width: 17rem;
     padding: 2rem;
-    border-right: 1px solid var(--accent-color);
+    /* border-right: 1px solid var(--accent-color); */
     height: 100vh;
 }
 
@@ -73,7 +74,7 @@ body {
 
 
 .main-container {
-    width: 70%;
+    width: 80%;
     padding: 1rem;
     scroll-behavior: smooth;
     overflow: auto;
