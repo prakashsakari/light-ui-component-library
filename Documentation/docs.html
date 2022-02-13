@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Prakash Sakari">
+    <meta name="description"
+        content="Light Ui is a component library that help you build awesome UI wihtout any hassle">
+    <title>Light Ui | Documentation</title>
+    <link rel="stylesheet" href="docs.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-title-icon d-flex grow-shrink-basis align-center">
+            <img class="icon mr-1" src="/assets/image.png" alt="flash">
+            <h1 class="title">
+                <a class="link" href="/">LightUi</a>
+            </h1>
+    </header>
+    <div class="d-flex">
+        <aside class="side-nav">
+            <h2>Components</h2>
+
+            <ul class="list-non-bullet mt-2">
+                <li class="list-item pointer"><a class="link" href="#Alert">Alert</a></li>
+                <li class="list-item pointer"><a class="link" href="#Avatar">Avatar</a></li>
+                <li class="list-item pointer"><a class="link" href="#Badge">Badge</a></li>
+                <li class="list-item pointer"><a class="link" href="#Button">Button</a></li>
+                <li class="list-item pointer"><a class="link" href="#Card">Card</a></li>
+                <li class="list-item pointer"><a class="link" href="#Image">Image</a></li>
+                <li class="list-item pointer"><a class="link" href="#Input">Input</a></li>
+                <li class="list-item pointer"><a class="link" href="#Navigation">Navigation</a></li>
+                <li class="list-item pointer"><a class="link" href="#Rating">Rating</a></li>
+                <li class="list-item pointer"><a class="link" href="#Toast">Toast</a></li>
+            </ul>
+        </aside>
+        <main class="main-container d-flex direction-column">
+            <!-- Alert -->
+            <section id="Alert" class="alert-container section">
+                <div class="about-section">
+                    <h1 class="section-heading">Alert</h1>
+                    <p class="alert-details">
+                        Alert displays feedback message upon a user action.
+                    </p>
+                    <p class="alert-details">The alert component has four variants alert on <span
+                            class="bg-color pd-3 br-5">success</span>,
+                        <span class="bg-color pd-3 br-5">error</span>, <span class="bg-color pd-3 br-5">warning</span>
+                        and <span class="bg-color pd-3 br-5">info</span>
+                    </p>
+                    <p class="alert-details">
+                        Alerts are available for any length of text.
+                    </p>
+                </div>
+                <h2 class="sub-heading">Standard Alert</h2>
+                <div class="comp-container d-flex direction-column gap">
+                    <div class="alert alert-success">This is a simple success alert!</div>
+                    <div class="alert alert-error">This is a simple error alert!</div>
+                    <div class="alert alert-warning">This is a simple warning alert!</div>
+                    <div class="alert alert-info">This is a simple info alert!</div>
+                </div>
+                <div class="snippet">
+                    <iframe loading="lazy"
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=htmlmixed&width=623.25&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=15px&lh=123%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-success%2522%253EThis%2520is%2520a%2520simple%2520success%2520alert%21%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-error%2522%253EThis%2520is%2520a%2520simple%2520error%2520alert%21%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-warning%2522%253EThis%2520is%2520a%2520simple%2520warning%2520alert%21%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-info%2522%253EThis%2520is%2520a%2520simple%2520info%2520alert%21%253C%252Fdiv%253E"
+                        style="width: 654px; height: 132px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </section>
+
+            <!-- Avatar -->
+            <section id="Avatar" class="avatar section">
+                <div class="about-section">
+                    <h1 class="section-heading">Avatar</h1>
+                    <p class="alert-details">
+                        Avatar displays user's profile picture on profile page or social media handles or navigation
+                        bar.
+                    </p>
+                    <p class="alert-details">The avatar component has three variants based on the size avatar
+                        <span class="bg-color pd-3 br-5">large</span>,
+                        <span class="bg-color pd-3 br-5">medium</span> and <span
+                            class="bg-color pd-3 br-5">small.</span>
+                    </p>
+                </div>
+                <h2 class="sub-heading">Avatar with Image</h2>
+                <div class="comp-container d-flex align-end wrap gap">
+                    <div class="avatar avatar-large-size">
+                        <img class="avatar-image-round" src="/assets/avatar.jpg" alt="avatar">
+                    </div>
+                    <div class="avatar avatar-medium-size">
+                        <img class="avatar-image-round" src="/assets/avatar.jpg" alt="avatar">
+                    </div>
+                    <div class="avatar avatar-small-size">
+                        <img class="avatar-image-round" src="/assets/avatar.jpg" alt="avatar">
+                    </div>
+                </div>
+                <div class="snippet">
+                    <iframe loading="lazy"
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=htmlmixed&width=623.25&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=15px&lh=123%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar%2520avatar-large-size%2522%253E%250A%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-image-round%2522%2520src%253D%2522...%2522%2520alt%253D%2522...%2522%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-medium-size%2522%253E%250A%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-image-round%2522%2520src%253D%2522...%2522%2520alt%253D%2522...%2522%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-small-size%2522%253E%250A%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-image-round%2522%2520src%253D%2522...%2522%2520alt%253D%2522...%2522%253E%250A%253C%252Fdiv%253E"
+                        style="width: 538px; height: 224px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+
+                </div>
+
+
+                <h2 class="sub-heading">Avatar with Text</h2>
+                <div class="comp-container d-flex align-end wrap gap">
+                    <div class="avatar avatar-large-size avatar-text d-flex align-center justify-center">
+                        PS
+                    </div>
+                    <div class="avatar avatar-medium-size avatar-text d-flex align-center justify-center">
+                        MT
+                    </div>
+                    <div class="avatar avatar-small-size avatar-text d-flex align-center justify-center">
+                        VK
+                    </div>
+                </div>
+                <div class="snippet">
+                    <iframe loading="lazy"
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=htmlmixed&width=623.25&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=15px&lh=123%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar%2520avatar-large-size%2520avatar-text%2520d-flex%2520align-center%2520justify-center%2522%253E%250A%2520%2520%2520%2520PS%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-medium-size%2520avatar-text%2520d-flex%2520align-center%2520justify-center%2522%253E%250A%2520%2520%2520%2520MT%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-small-size%2520avatar-text%2520d-flex%2520align-center%2520justify-center%2522%253E%250A%2520%2520%2520%2520VK%250A%253C%252Fdiv%253E"
+                        style="width: 799px; height: 224px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+            </section>
+
+            <!-- Badge -->
+            <section id="Badge" class="badge-container section">
+                <div class="about-section">
+                    <h1 class="section-heading">Badge</h1>
+                    <p class="alert-details">
+                        Badge can be used on Avatars and Icons to display count and status.
+                    </p>
+                </div>
+                <h2 class="sub-heading">Badge on Avatar</h2>
+                <div class="comp-container d-flex align-end wrap gap">
+                    <div class="avatar avatar-large-size relative">
+                        <img class="avatar-image-round" src="/assets/avatar.jpg" alt="avatar">
+                        <div class="avatar-badge online"></div>
+                    </div>
+                    <div class="avatar avatar-medium-size relative">
+                        <img class="avatar-image-round" src="/assets/avatar.jpg" alt="avatar">
+                        <div class="avatar-badge offline"></div>
+                    </div>
+                    <div class="avatar avatar-small-size relative">
+                        <img class="avatar-image-round" src="/assets/avatar.jpg" alt="avatar">
+                        <div class="avatar-badge dnd"></div>
+                    </div>
+                </div>
+                <div class="snippet">
+                    <iframe loading="lazy"
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=htmlmixed&width=623.25&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=15px&lh=123%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar%2520avatar-large-size%2520relative%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-image-round%2522%2520src%253D%2522%252Fassets%252Favatar.jpg%2522%2520alt%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar-badge%2520online%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-medium-size%2520relative%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-image-round%2522%2520src%253D%2522%252Fassets%252Favatar.jpg%2522%2520alt%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar-badge%2520offline%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-small-size%2520relative%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-image-round%2522%2520src%253D%2522%252Fassets%252Favatar.jpg%2522%2520alt%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar-badge%2520dnd%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="width: 690px; height: 279px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+                <h2 class="sub-heading">Badge on Icon</h2>
+                <div class="comp-container d-flex align-end wrap gap">
+                    <div class="icon-badge relative">
+                        <img src="/assets/cart.png" alt="count">
+                        <div class="badge-number avatar-badge d-flex align-center justify-center">5</div>
+                    </div>
+                    <div class="icon-badge relative">
+                        <img src="/assets/favourite.png" alt="count">
+                        <div class="badge-number avatar-badge d-flex align-center justify-center">3</div>
+                    </div>
+                </div>
+                <div class="snippet">
+                    <iframe loading="lazy"
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=htmlmixed&width=623.25&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=15px&lh=123%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar-container%2520d-flex%2520align-end%2520wrap%2520gap%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icon-badge%2520relative%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Fcart.png%2522%2520alt%253D%2522count%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-number%2520avatar-badge%2520d-flex%2520align-center%2520justify-center%2522%253E5%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icon-badge%2520relative%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Ffavourite.png%2522%2520alt%253D%2522count%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-number%2520avatar-badge%2520d-flex%2520align-center%2520justify-center%2522%253E3%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="width: 826px; height: 243px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+            </section>
+
+            <!-- Button -->
+            <section id="Button" class="button-container section">
+                <div class="about-section">
+                    <h1 class="section-heading">Button</h1>
+                    <p class="alert-details">
+                        Button has multiple uses like call to action in forms, dialogs, modals and comes with different
+                        styles
+                    </p>
+                </div>
+
+                <h2 class="sub-heading">Solid Buttons</h2>
+                <div class="comp-container d-flex align-center gap">
+                    <button class="button btn-primary cursor">Primary</button>
+                    <button class="button btn-secondary cursor">Secondary</button>
+                    <button class="button btn-success cursor">Success</button>
+                    <button class="button btn-error cursor">Danger</button>
+                    <button class="button btn-warning cursor">Warning</button>
+                </div>
+
+                <div class="snippet">
+                    <iframe loading="lazy"
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=htmlmixed&width=623.25&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=15px&lh=123%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522button%2520btn-primary%2520cursor%2522%253EPrimary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522button%2520btn-secondary%2520cursor%2522%253ESecondary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522button%2520btn-success%2520cursor%2522%253ESuccess%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522button%2520btn-danger%2520cursor%2522%253EDanger%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522button%2520btn-warning%2520cursor%2522%253EWarning%253C%252Fbutton%253E"
+                        style="width: 582px; height: 150px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+                <h2 class="sub-heading">Outline Buttons</h2>
+                <div class="comp-container d-flex align-center gap">
+                    <button class="button btn-outline-primary cursor">Primary</button>
+                    <button class="button btn-outline-secondary cursor">Secondary</button>
+                    <button class="button btn-outline-success cursor">Success</button>
+                    <button class="button btn-outline-error cursor">Danger</button>
+                    <button class="button btn-outline-warning cursor">Warning</button>
+                </div>
+                <div class="snippet">
+                    <iframe loading="lazy"
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=htmlmixed&width=623.25&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=15px&lh=123%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522button%2520btn-outline-primary%2520cursor%2522%253EPrimary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522button%2520btn-outline-secondary%2520cursor%2522%253ESecondary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522button%2520btn-outline-success%2520cursor%2522%253ESuccess%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522button%2520btn-outline-danger%2520cursor%2522%253EDanger%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522button%2520btn-outline-warning%2520cursor%2522%253EWarning%253C%252Fbutton%253E"
+                        style="width: 654px; height: 150px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+
+                <h2 class="sub-heading">Disabled Buttons</h2>
+                <div class="comp-container d-flex align-center gap">
+                    <button class="button btn-disable" disabled>Primary</button>
+                    <button class="button btn-secondary" disabled>Link</button>
+                </div>
+                <div class="snippet">
+                    <iframe loading="lazy"
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=htmlmixed&width=623.25&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=15px&lh=123%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522button%2520btn-accent%2522%2520disabled%253EPrimary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522button%2520btn-secondary%2522%2520disabled%253ELink%253C%252Fbutton%253E"
+                        style="width: 555px; height: 95px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+                <h2 class="sub-heading">Link Buttons</h2>
+                <div class="comp-container d-flex align-center gap">
+                    <button class="button btn-link-primary cursor">
+                        <a class="link-primary" href="#" target="_blank">Primary Link Button</a>
+                    </button>
+
+                    <button class="button btn-link-secondary cursor">
+                        <a class="link-secondary" href="#" target="_blank">Secondary Link Button</a>
+                    </button>
+                </div>
+                <div class="snippet">
+                    <iframe loading="lazy"
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=htmlmixed&width=623.25&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=15px&lh=123%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522button%2520btn-link-primary%2520cursor%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522link-primary%2522%2520href%253D%2522%2523%2522%2520target%253D%2522_blank%2522%253EPrimary%2520Link%2520Button%253C%252Fa%253E%250A%253C%252Fbutton%253E%250A%250A%253Cbutton%2520class%253D%2522button%2520btn-link-secondary%2520cursor%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522link-secondary%2522%2520href%253D%2522%2523%2522%2520target%253D%2522_blank%2522%253ESecondary%2520Link%2520Button%253C%252Fa%253E%250A%253C%252Fbutton%253E"
+                        style="width: 772px; height: 187px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+                <h2 class="sub-heading">Icon Button</h2>
+                <div class="comp-container d-flex align-center gap">
+                    <button class="button btn-primary btn-icon d-flex align-center gap cursor">
+                        <img src="/assets/cart-white.png" alt="cart"> Add To Cart
+                    </button>
+                    <button class="button btn-primary btn-icon d-flex align-center gap cursor">
+                        <img src="/assets/delete.png" alt="delete"> Delete
+                    </button>
+                </div>
+                <div class="snippet">
+                    <iframe loading="lazy"
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=htmlmixed&width=623.25&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=15px&lh=123%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522button%2520btn-primary%2520btn-icon%2520d-flex%2520align-center%2520gap%2520cursor%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Fcart-white.png%2522%2520alt%253D%2522cart%2522%253E%2520Add%2520To%2520Cart%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522button%2520btn-primary%2520btn-icon%2520d-flex%2520align-center%2520gap%2520cursor%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Fdelete.png%2522%2520alt%253D%2522delete%2522%253E%2520Delete%250A%253C%252Fbutton%253E"
+                        style="width: 700px; height: 169px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <h2 class="sub-heading">Floating Action Button</h2>
+                <div class="comp-container  d-flex align-center gap">
+                    <button
+                        class="button btn-primary btn-float d-flex align-center gap justify-center cursor">+</button>
+                    <button class="button btn-primary btn-float d-flex align-center gap justify-center cursor">
+                        <img src="/assets/up.png" alt="up">
+                    </button>
+                </div>
+                <div class="snippet">
+                    <iframe loading="lazy"
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=htmlmixed&width=623.25&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=15px&lh=123%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522button%2520btn-primary%2520btn-float%2520d-flex%2520align-center%2520gap%2520justify-center%2520cursor%2522%253E%252B%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522button%2520btn-primary%2520btn-float%2520d-flex%2520align-center%2520gap%2520justify-center%2520cursor%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Fup.png%2522%2520alt%253D%2522up%2522%253E%250A%253C%252Fbutton%253E"
+                        style="width: 934px; height: 132px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </section>
+
+            <!-- Card -->
+            <section id="Card" class="alert-container section">
+                <div class="about-section">
+                    <h1 class="section-heading">Card</h1>
+                    <p class="alert-details">
+                        A card is for onboarding messages that need a more flexible layout or to display data about
+                        something like a product on Ecommerce website.
+                    </p>
+                </div>
+                <h2 class="sub-heading">Card with Text</h2>
+                <div class="comp-container ">
+                    <div class="card-block">
+                        <div class="card-text-body">
+                            <div class="card-header padding">
+                                <div class="card-title">Card Title</div>
+                            </div>
+                            <div class="card-content padding">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry. Lorem Ipsum has been the industry's standard dummy text ever
+                                since the 1500s, when an unknown printer took a galley of type and
+                                scrambled it to make a type specimen book.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="snippet">
+                    <iframe loading="lazy"
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=htmlmixed&width=623.25&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=15px&lh=123%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-text-body%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2520padding%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-title%2522%253ECard%2520Title%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-content%2520padding%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520Ipsum%2520is%2520simply%2520dummy%2520text%2520of%2520the%2520printing%2520and%2520typesetting%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520industry.%2520Lorem%2520Ipsum%2520has%2520been%2520the%2520industry%27s%2520standard%2520dummy%2520text%2520ever%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520since%2520the%25201500s%252C%2520when%2520an%2520unknown%2520printer%2520took%2520a%2520galley%2520of%2520type%2520and%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520scrambled%2520it%2520to%2520make%2520a%2520type%2520specimen%2520book.%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="width: 772px; height: 298px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <h2 class="sub-heading">Vertical Card</h2>
+                <p><em>Note:</em> To <span class="bg-color pd-3 br-5">add showdaow effect</span> to card, <span
+                        class="bg-color pd-3 br-5">add the shadow class</span> in the parent div.</p>
+                <div class="comp-container ">
+                    <div class="card card-vertical d-flex direction-column relative shadow">
+                        <div class="card-image-container">
+                            <img class="card-image" src="/assets/shoes.jpg" alt="shoes">
+                        </div>
+                        <div class="card-details">
+                            <div class="card-title">Premium Collection</div>
+                            <div class="card-description">
+                                <p class="card-des">Men Sneakers</p>
+                                <p class="card-price">
+                                    Rs. 1750
+                                    <span class="price-strike-through">Rs. 2499</span>
+                                    <span class="discount">(30% OFF)</span>
+                                </p>
+                            </div>
+                            <div class="cta-btn">
+                                <button class="button btn-primary btn-icon d-flex align-center gap cursor btn-margin">
+                                    <img src="/assets/cart-white.png" alt="cart"> Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="snippet">
+                    <iframe loading="lazy"
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=htmlmixed&width=623.25&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=15px&lh=123%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card-vertical%2520d-flex%2520direction-column%2520relative%2520shadow%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-image-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-image%2522%2520src%253D%2522%252Fassets%252Fshoes.jpg%2522%2520alt%253D%2522shoes%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-details%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-title%2522%253EPremium%2520Collection%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-description%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-des%2522%253EMen%2520Sneakers%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-price%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Rs.%25201750%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522price-strike-through%2522%253ERs.%25202499%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522discount%2522%253E%2830%2525%2520OFF%29%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cta-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520btn-primary%2520btn-icon%2520d-flex%2520align-center%2520gap%2520cursor%2520btn-margin%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Fcart-white.png%2522%2520alt%253D%2522cart%2522%253E%2520Add%2520To%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="width: 907px; height: 427px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <h2 class="sub-heading">Card with Badge</h2>
+                <div class="comp-container ">
+                    <div class="card card-vertical d-flex direction-column relative">
+                        <div class="card-image-container relative">
+                            <img class="card-image" src="/assets/shoes.jpg" alt="card">
+                            <small class="c-badge bg-primary absolute left-0">Trending</small>
+                        </div>
+                        <div class="card-details">
+                            <div class="card-title">Premium Collection</div>
+                            <div class="card-description">
+                                <p class="card-des">Men Sneakers</p>
+                                <p class="card-price">
+                                    Rs. 1750
+                                    <span class="price-strike-through">Rs. 2499</span>
+                                    <span class="discount">(30% OFF)</span>
+                                </p>
+                            </div>
+                            <div class="cta-btn">
+                                <button class="button btn-primary btn-icon d-flex align-center gap cursor btn-margin">
+                                    <img src="/assets/cart-white.png" alt="cart"> Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="snippet">
+                    <iframe loading="lazy"
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=htmlmixed&width=623.25&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=15px&lh=123%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card-vertical%2520d-flex%2520direction-column%2520relative%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-image-container%2520relative%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-image%2522%2520src%253D%2522%252Fassets%252Fshoes.jpg%2522%2520alt%253D%2522card%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%2520class%253D%2522c-badge%2520bg-primary%2520absolute%2520left-0%2522%253ETrending%253C%252Fsmall%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-details%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-title%2522%253EPremium%2520Collection%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-description%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-des%2522%253EMen%2520Sneakers%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-price%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Rs.%25201750%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522price-strike-through%2522%253ERs.%25202499%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522discount%2522%253E%2830%2525%2520OFF%29%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cta-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520btn-primary%2520btn-icon%2520d-flex%2520align-center%2520gap%2520cursor%2520btn-margin%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Fcart-white.png%2522%2520alt%253D%2522cart%2522%253E%2520Add%2520To%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="width: 907px; height: 446px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <h2 class="sub-heading">Card with Dismiss</h2>
+                <div class="comp-container ">
+                    <div class="card card-vertical d-flex direction-column relative">
+                        <div class="card-image-container relative">
+                            <img class="card-image" src="/assets/shoes.jpg" alt="card">
+                            <small class="c-badge bg-primary absolute left-0">Trending</small>
+                            <button class="badge-close cursor absolute">
+                                <img src="/assets/close.png" alt="close">
+                            </button>
+                        </div>
+                        <div class="card-details">
+                            <div class="card-title">Premium Collection</div>
+                            <div class="card-description">
+                                <p class="card-des">Men Sneakers</p>
+                                <p class="card-price">
+                                    Rs. 1750
+                                    <span class="price-strike-through">Rs. 2499</span>
+                                    <span class="discount">(30% OFF)</span>
+                                </p>
+                            </div>
+                            <div class="cta-btn">
+                                <button class="button btn-primary btn-icon d-flex cursor btn-margin">
+                                    <img src="/assets/cart-white.png" alt="cart"> Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="snippet">
+                    <iframe loading="lazy"
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=htmlmixed&width=623.25&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=15px&lh=123%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card-vertical%2520d-flex%2520direction-column%2520relative%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-image-container%2520relative%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-image%2522%2520src%253D%2522%252Fassets%252Fshoes.jpg%2522%2520alt%253D%2522card%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%2520class%253D%2522c-badge%2520bg-primary%2520absolute%2520left-0%2522%253ETrending%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522badge-close%2520cursor%2520absolute%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Fclose.png%2522%2520alt%253D%2522close%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-details%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-title%2522%253EPremium%2520Collection%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-description%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-des%2522%253EMen%2520Sneakers%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-price%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Rs.%25201750%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522price-strike-through%2522%253ERs.%25202499%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522discount%2522%253E%2830%2525%2520OFF%29%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cta-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520btn-primary%2520btn-icon%2520d-flex%2520cursor%2520btn-margin%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Fcart-white.png%2522%2520alt%253D%2522cart%2522%253E%2520Add%2520To%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="width: 762px; height: 501px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <h2 class="sub-heading">Card with Text Overlay</h2>
+                <div class="comp-container ">
+                    <div class="card card-vertical d-flex direction-column relative">
+                        <div class="card-image-container relative">
+                            <img class="card-image" src="/assets/shoes.jpg" alt="shoes">
+                            <small class="c-badge bg-primary absolute left-0">Trending</small>
+                            <button class="badge-close cursor absolute">
+                                <img src="/assets/close.png" alt="close">
+                            </button>
+                        </div>
+                        <div class="card-details">
+                            <div class="card-title">Premium Collection</div>
+                            <div class="card-description">
+                                <p class="card-des">Men Sneakers</p>
+                                <p class="card-price">
+                                    Rs. 1750
+                                    <span class="price-strike-through">Rs. 2499</span>
+                                    <span class="discount">(30% OFF)</span>
+                                </p>
+                            </div>
+                            <div class="cta-btn">
+                                <button class="button btn-primary btn-icon d-flex align-center gap cursor btn-margin">
+                                    <img src="/assets/cart-white.png" alt="cart"> Add To Cart</button>
+                            </div>
+                        </div>
+                        <div
+                            class="text-overlay d-flex direction-column align-center justify-center absolute top-0 left-0">
+                            Out of Stock</div>
+                    </div>
+                </div>
+                <div class="snippet">
+                    <iframe loading="lazy"
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=htmlmixed&width=623.25&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=15px&lh=123%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card-vertical%2520d-flex%2520direction-column%2520relative%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-image-container%2520relative%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-image%2522%2520src%253D%2522%252Fassets%252Fshoes.jpg%2522%2520alt%253D%2522shoes%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%2520class%253D%2522c-badge%2520bg-primary%2520absolute%2520left-0%2522%253ETrending%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522badge-close%2520cursor%2520absolute%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Fclose.png%2522%2520alt%253D%2522close%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-details%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-title%2522%253EPremium%2520Collection%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-description%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-des%2522%253EMen%2520Sneakers%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-price%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Rs.%25201750%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522price-strike-through%2522%253ERs.%25202499%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522discount%2522%253E%2830%2525%2520OFF%29%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cta-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520btn-primary%2520btn-icon%2520d-flex%2520align-center%2520gap%2520cursor%2520btn-margin%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Fcart-white.png%2522%2520alt%253D%2522cart%2522%253E%2520Add%2520To%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%250A%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522text-overlay%2520d-flex%2520direction-column%2520align-center%2520justify-center%2520absolute%2520top-0%2520left-0%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Out%2520of%2520Stock%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="width: 952px; height: 556px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <h2 class="sub-heading">Horizonntal Card</h2>
+                <div class="comp-container ">
+                    <div class="card-horizontal d-flex shadow">
+                        <div class="card-hori-image-container relative">
+                            <img class="card-image" src="/assets/shoes.jpg" alt="shoes">
+                            <small class="c-badge bg-primary absolute left-0">Trending</small>
+                        </div>
+                        <div class="card-details d-flex direction-column">
+                            <div class="card-title">Premium Collection</div>
+                            <div class="card-description">
+                                <p class="card-des">Men Sneakers</p>
+                                <p class="card-price">
+                                    Rs. 1750
+                                    <span class="price-strike-through">Rs. 2499</span>
+                                    <span class="discount">(30% OFF)</span>
+                                </p>
+                            </div>
+                            <div class="cta-btn">
+                                <button class="button btn-primary btn-icon d-flex align-center gap cursor btn-margin">
+                                    <img src="/assets/cart-white.png" alt="cart"> Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="snippet">
+                    <iframe loading="lazy"
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=htmlmixed&width=623.25&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=15px&lh=123%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-horizontal%2520d-flex%2520shadow%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-hori-image-container%2520relative%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-image%2522%2520src%253D%2522%252Fassets%252Fshoes.jpg%2522%2520alt%253D%2522shoes%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%2520class%253D%2522c-badge%2520bg-primary%2520absolute%2520left-0%2522%253ETrending%253C%252Fsmall%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-details%2520d-flex%2520direction-column%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-title%2522%253EPremium%2520Collection%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-description%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-des%2522%253EMen%2520Sneakers%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-price%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Rs.%25201750%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522price-strike-through%2522%253ERs.%25202499%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522discount%2522%253E%2830%2525%2520OFF%29%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cta-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520btn-primary%2520btn-icon%2520d-flex%2520align-center%2520gap%2520cursor%2520btn-margin%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Fcart-white.png%2522%2520alt%253D%2522cart%2522%253E%2520Add%2520To%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="width: 907px; height: 446px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </section>
+
+            <!-- Image -->
+            <section id="Image" class="image-container section">
+                <div class="about-section">
+                    <h1 class="section-heading">Image</h1>
+                    <p class="alert-details">Image component has two variants <span
+                            class="bg-color pd-3 br-5">Responsive Image</span>, and <span
+                            class="bg-color pd-3 br-5">Round Image</span>
+                    </p>
+                </div>
+                <h2 class="sub-heading">Responsive Image</h2>
+                <div class="comp-container ">
+                    <img class="img-responsive" src="/assets/shoes.jpg" alt="shoes">
+                </div>
+                <div class="snippet">
+                    <iframe loading="lazy"
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=htmlmixed&width=623.25&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=15px&lh=123%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522img-responsive%2522%2520src%253D%2522%252Fassets%252Fshoes.jpg%2522%2520alt%253D%2522shoes%2522%253E%2520"
+                        style="width: 610px; height: 77px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <h2 class="sub-heading">Round Image</h2>
+                <div class="comp-container ">
+                    <img class="img-round" src="/assets/shoes.jpg" alt="shoes">
+                </div>
+                <div class="snippet">
+                    <iframe loading="lazy"
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=htmlmixed&width=623.25&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=15px&lh=123%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522img-round%2522%2520src%253D%2522%252Fassets%252Fshoes.jpg%2522%2520alt%253D%2522shoes%2522%253E"
+                        style="width: 555px; height: 77px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </section>
+
+            <!-- Input -->
+            <section id="Input" class="alert-container section">
+                <div class="about-section">
+                    <h1 class="section-heading">Input</h1>
+                    <p class="alert-details">
+                        Input component allows user to input information like Email-Id, Password, and other information
+                    </p>
+                </div>
+                <h2 class="sub-heading">Standard Input</h2>
+                <div class="comp-container">
+                    <input type="email" class="form-input lh-ls" placeholder="name@example.com">
+                </div>
+                <div class="snippet">
+                    <iframe loading="lazy"
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=htmlmixed&width=623.25&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=15px&lh=123%25&si=false&es=2x&wm=false&code=%253Cinput%2520type%253D%2522email%2522%2520class%253D%2522form-input%2520lh-ls%2522%2520placeholder%253D%2522name%2540example.com%2522%253E"
+                        style="width: 709px; height: 77px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <h2 class="sub-heading">Input with Validation</h2>
+                <p class="alert-details">The input validation component has three variants <span
+                        class="bg-color pd-3 br-5">success</span>,
+                    <span class="bg-color pd-3 br-5">error</span> and <span class="bg-color pd-3 br-5">warning</span>
+                </p>
+
+                <p><em>Note:</em> To use warning and success validation replace class error with warning or success
+                </p>
+                <div class="comp-container">
+                    <input type="email" class="form-input lh-ls error" placeholder="name@example.com">
+                    <input type="password" class="form-input lh-ls warning" placeholder="password">
+                    <input type="password" class="form-input lh-ls success" placeholder="password">
+                </div>
+                <div class="snippet">
+                    <iframe loading="lazy"
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=htmlmixed&width=623.25&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=15px&lh=123%25&si=false&es=2x&wm=false&code=%253Cinput%2520type%253D%2522email%2522%2520class%253D%2522form-input%2520lh-ls%2520error%2522%2520placeholder%253D%2522name%2540example.com%2522%253E"
+                        style="width: 762px; height: 77px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </section>
+            <!-- Navigation -->
+            <section id="Navigation" class="nav-container section">
+                <div class="about-section">
+                    <h1 class="section-heading">Navigation</h1>
+                    <p class="alert-details">
+                        Navigation bar is used to navigate through the web app or websites.
+                    </p>
+
+                </div>
+                <h2 class="sub-heading">Standard Navigation</h2>
+                <div class="comp-container">
+                    <header class="heading d-flex grow-shrink-basis align-center">
+                        <div class="heading-title-icon d-flex grow-shrink-basis align-center">
+                            <img class="icon mr-1" src="/assets/image.png" alt="lightbul">
+                            <h1 class="heading-title">
+                                <a class="link" href="/">Page Title</a>
+                            </h1>
+                        </div>
+                        <nav class="navigation">
+                            <ul class="list-non-bullet">
+                                <li class="list-item-inline">
+                                    <a href="#" class="link cursor">Home</a>
+                                </li>
+                                <li class="list-item-inline">
+                                    <a href="#" class="link cursor">About</a>
+                                </li>
+                                <li class="list-item-inline">
+                                    <a href="#" class="link cursor">Contact</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </header>
+                </div>
+                <div class="snippet">
+                    <iframe loading="lazy"
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=htmlmixed&width=623.25&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=15px&lh=123%25&si=false&es=2x&wm=false&code=%253Cheader%2520class%253D%2522heading%2520d-flex%2520grow-shrink-basis%2520align-center%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522heading-title-icon%2520d-flex%2520grow-shrink-basis%2520align-center%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522icon%2520mr-1%2522%2520src%253D%2522%252Fassets%252Fimage.png%2522%2520alt%253D%2522lightbul%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%2520class%253D%2522heading-title%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522link%2522%2520href%253D%2522%252F%2522%253EPage%2520Title%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fh1%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cnav%2520class%253D%2522navigation%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522list-non-bullet%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item-inline%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522link%2520cursor%2522%253EHome%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item-inline%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522link%2520cursor%2522%253EAbout%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item-inline%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522link%2520cursor%2522%253EContact%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%253C%252Fnav%253E%250A%253C%252Fheader%253E"
+                        style="width: 690px; height: 446px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </section>
+            <!-- Rating -->
+            <section id="Rating" class="alert-container section">
+                <div class="about-section">
+                    <h1 class="section-heading">Rating</h1>
+                    <p class="alert-details">
+                        Rating components are used to review something like rating a product or an item.
+                    </p>
+
+                </div>
+                <h2 class="sub-heading">Standard Rating</h2>
+                <p><em>Note:</em>To remove the color from the star just remove the class checked and to
+                    increase/decrease the size use <span class="bg-color pd-3 br-5">fa-3x</span>, <span
+                        class="bg-color pd-3 br-5">fa-4x</span> and so on.</p>
+                <div class="comp-container ">
+                    <span class="fa fa-star fa-2x checked"></span>
+                    <span class="fa fa-star fa-2x checked"></span>
+                    <span class="fa fa-star fa-2x checked"></span>
+                    <span class="fa fa-star fa-2x checked"></span>
+                    <span class="fa fa-star fa-2x checked "></span>
+                </div>
+
+                <div class="comp-container ">
+                    <span class="fa fa-star fa-2x"></span>
+                    <span class="fa fa-star fa-2x"></span>
+                    <span class="fa fa-star fa-2x"></span>
+                    <span class="fa fa-star fa-2x"></span>
+                    <span class="fa fa-star fa-2x "></span>
+                </div>
+                <div class="snippet">
+                    <iframe loading="lazy"
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=htmlmixed&width=623.25&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=15px&lh=123%25&si=false&es=2x&wm=false&code=%253Cspan%2520class%253D%2522fa%2520fa-star%2520fa-2x%2522%253E%253C%252Fspan%253E"
+                        style="width: 366px; height: 77px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </section>
+            <!-- Toast -->
+            <section id="Toast" class="alert-container section">
+                <div class="about-section">
+                    <h1 class="section-heading">Toast</h1>
+                    <p class="alert-details">
+                        Toast displays notification to a user.
+                    </p>
+
+                </div>
+                <h2 class="sub-heading">Standard Toast</h2>
+                <p>Toast can appear on any four corners of the screen or at the bottom center of the screen</p>
+                <p>Add the class <span class="bg-color pd-3 br-5">bottom-left</span>, <span
+                        class="bg-color pd-3 br-5">bottom-right</span>, <span
+                        class="bg-color pd-3 br-5">bottom-center</span>,
+                    <span class="bg-color pd-3 br-5">top-left</span> or <span
+                        class="bg-color pd-3 br-5">top-right</span>
+                    accordingly</p>
+
+                <div class="comp-container ">
+                    <div class="toast d-flex gap align-center">
+                        <div>Connection timed out. Retry after 5 seconds.</div>
+                        <button class="btn retry">RETRY</button>
+                        <button class="btn close">
+                            <img src="/assets/close-white.png" alt="close">
+                        </button>
+                    </div>
+                </div>
+
+                <div class="comp-container ">
+                    <div class="toast d-flex gap align-center">
+                        <div>Loading failed. Try after sometime.</div>
+                        <button class="btn retry">RETRY</button>
+                        <button class="btn close">
+                            <img src="/assets/close-white.png" alt="close">
+                        </button>
+                    </div>
+                </div>
+
+                <div class="snippet">
+                    <iframe loading="lazy"
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=htmlmixed&width=623.25&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=15px&lh=123%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522toast-container%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast%2520d-flex%2520gap%2520align-center%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253EConnection%2520timed%2520out.%2520Retry%2520after%25205%2520seconds.%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520retry%2522%253ERETRY%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520close%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Fclose-white.png%2522%2520alt%253D%2522close%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="width: 591px; height: 224px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </section>
+        </main>
+    </div>
+
+</body>
+
+</html>
