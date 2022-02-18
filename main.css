@@ -1,0 +1,27 @@
+@import url("/Documentation/docs.css");
+
+.brand-details {
+    text-align: center;
+    padding-top: 3rem;
+    letter-spacing: 2px;
+}
+
+
+.icon-large {
+    width: 7rem;
+    height: 7rem;
+}
+
+.about-brand {
+    width: 60ch;
+    margin: auto;
+}
+
+.footer {
+    padding-top: 5rem;
+}
+
+.source-image {
+    width: 1.5rem;
+    height: 1.5rem;
+}

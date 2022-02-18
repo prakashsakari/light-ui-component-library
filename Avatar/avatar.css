@@ -1,30 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap');
+@import url("/styles/reset.css");
+@import url("/styles/utility.css");
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-body {
-    font-family: 'Raleway', sans-serif;
-}
-
-:root {
-    --primary-color: #064e3b;
-    --text-color: #fff;
-    --border-color: #fff;
-    --green-badge: #059669;
-    --red-badge: #dc2626;
-    --yellow-badge: #facc15;
-}
-
-.container {
+.avatar-container {
     margin: 2rem;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-end;
-    gap: 1rem;
 }
 
 
@@ -57,10 +36,8 @@ body {
 }
 
 .avatar-text {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background-color: var(--primary-color);
-    color: var(--text-color);
+    color: var(--text-color-secondary);
+    font-weight: 700;
 }
 

@@ -1,0 +1,12 @@
+@import url("/styles/reset.css");
+
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+.img-round {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}

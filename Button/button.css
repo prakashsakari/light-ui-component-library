@@ -1,41 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap');
+@import url("/styles/reset.css");
+@import url("/styles/utility.css");
 
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-:root {
-    --primary-color: #134e4a;
-    --secondary-color: #DFD8CA;
-    --accent-color: #818cf8;
-    --primary-text-color: #fff;
-    --success: #22c55e;
-    --danger: #b91c1c;
-    --warning: #facc15;
-}
-
-
-body{
-    font-family: 'Raleway', sans-serif;
-}
-
-h2 {
-    text-align: center;
-}
-
-.container {
+.btn-container {
     margin: 2rem;
 }
 
-.d-flex {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-}
 
 .button {
     font-size: 1.2rem;
@@ -52,60 +22,73 @@ h2 {
 
 .btn-primary {
     background: var(--primary-color);
-    color: var(--primary-text-color);
+    color: var(--text-color-secondary);
+    font-weight: 700;
 }
 
 .btn-secondary {
     background: var(--secondary-color);
+    color: var(--text-color-primary);
+    font-weight: 700;
 }
 
 
 .btn-success {
     background: var(--success);
+    color: var(--text-color-primary);
+    font-weight: 700;
 }
 
-.btn-danger {
-    background: var(--danger);
-    color: var(--primary-text-color);
+.btn-error {
+    background: var(--error);
+    color: var(--text-color-primary);
+    font-weight: 700;
 }
 
 .btn-warning {
     background: var(--warning);
+    color: var(--text-color-primary);
+    font-weight: 700;
 }
 
 
 .btn-outline-primary {
     color: var(--primary-color);
-    border: 2px solid var(--primary-color);
+    border: 1px solid var(--primary-color);
+    font-weight: 700;
 }
 
 .btn-outline-secondary {
     color: var(--secondary-color);
-    border: 2px solid var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+    font-weight: 700;
 }
 
 .btn-outline-success {
     color: var(--success);
-    border: 2px solid var(--success);
+    border: 1px solid var(--success);
+    font-weight: 700;
 }
 
-.btn-outline-danger {
-    color: var(--danger);
-    border: 2px solid var(--danger);
+.btn-outline-error {
+    color: var(--error);
+    border: 2px solid var(--error);
+    font-weight: 700;
 }
 
 .btn-outline-warning {
     color: var(--warning);
     border: 2px solid var(--warning);
+    font-weight: 700;
 }
 
-.btn-accent {
-    background: var(--accent-color);
+.btn-disable {
+    background: var(--btn-disable-color);
 }
 
 .link-primary {
     text-decoration: none;
-    color: #000;
+    color: var(--primary-color);
     border-bottom: 3px solid var(--primary-color); 
 }
 

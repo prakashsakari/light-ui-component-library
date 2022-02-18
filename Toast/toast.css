@@ -1,0 +1,70 @@
+@import url("/styles/reset.css");
+@import url("/styles/utility.css");
+
+.bottom-center {
+    bottom: 3rem;
+    left: 40%;
+}
+
+.bottom-right {
+    bottom: 3rem;
+    right: 1rem;
+}
+
+.bottom-left {
+    bottom: 3rem;
+    left: 1rem;
+}
+
+.top-left {
+    top: 3rem;
+    left: 1rem;
+}
+
+.top-right {
+    top: 3rem;
+    right: 1rem;
+}
+
+.t-flex {
+    display: flex;
+    gap: 1.3rem;
+    align-items: center;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.toast {
+    width: max-content;
+    background-color: var(--toast-background-color);
+    color: var(--text-color-secondary);
+    padding: 0.35rem 1rem;
+    font-size: 1rem;
+    border-radius: 4px;
+}
+
+.close {
+    border-radius: 50%;
+    height: 2.25rem;
+    width: 2.25rem;
+    color: var(--text-color-secondary);
+}
+
+.btn {
+    border: none;
+    background-color: transparent;
+}
+
+.btn:hover {
+    cursor: pointer;
+    opacity: .85;
+}
+
+.retry {
+    color: var(--btn-retry-text-color);
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
