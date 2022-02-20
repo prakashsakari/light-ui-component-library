@@ -58,6 +58,10 @@ To use the components you can either import the style sheet in your css file or 
 ## Screenshot
 ![component library ss](https://user-images.githubusercontent.com/80476561/153918981-bcfa31c1-d0ec-4a51-91b0-c1eafbf9ce5b.png)
 
+## Demo
+![component lib](https://user-images.githubusercontent.com/80476561/154856401-91629d23-fde3-4240-9da7-7eec28df2bc7.gif)
+
+
 
 Made with ❤️ by Prakash Sakari
 
