@@ -9,14 +9,14 @@
 
 .container {
     margin: 1rem 0;
-    border: 1px solid gray;
+    border: 1px solid var(--accent-color);
     padding: .5rem;
     width: 70%;
 }
 
 .title {
     width: max-content;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid var(--text-color-primary);
 }
 
 .text {
@@ -88,5 +88,5 @@
 }
 
 .gray-text {
-    color: #6b7280;
+    color: var(--accent-color);
 }
