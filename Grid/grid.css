@@ -16,7 +16,7 @@
 }
 
 .box {
-    border: 1px solid black;
+    border: 1px solid var(--text-color-primary);
     border-radius: 4px;
     padding: 1rem;
 }
