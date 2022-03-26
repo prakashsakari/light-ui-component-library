@@ -1,0 +1,23 @@
+@import url("/styles/reset.css");
+@import url("/styles/utility.css");
+
+.container {
+    margin: 2rem;
+}
+
+.grid-container-two-col {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-container-three-col {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.box {
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 1rem;
+}
+
