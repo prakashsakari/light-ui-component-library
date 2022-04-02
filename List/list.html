@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Prakash Sakari">
+    <title>List</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="list.css">
+</head>
+
+<body>
+    <div class="list-container">
+        <h1>Unordered List</h1>
+        <ul class="list-style">
+            <li class="list-item">List Item 1</li>
+            <li class="list-item">List Item 2</li>
+            <li class="list-item">List Item 3</li>
+            <li class="list-item">List Item 4</li>
+            <li class="list-item">List Item 5</li>
+        </ul>
+    </div>
+    <div class="list-container">
+        <h1>Ordered List</h1>
+        <ol class="list-style">
+            <li class="list-item">List Item 1</li>
+            <li class="list-item">List Item 2</li>
+            <li class="list-item">List Item 3</li>
+            <li class="list-item">List Item 4</li>
+            <li class="list-item">List Item 5</li>
+        </ol>
+    </div>
+    <div class="list-container">
+        <h1>Nested List</h1>
+        <ul class="list-style">
+            <ol>
+                <li class="list-item">Title 1
+                    <ul class="list-bullet">
+                        <li class="list-item">Sub Title 1</li>
+                        <li class="list-item">Sub Title 2</li>
+                        <li class="list-item">Sub Title 3
+                            <ol class="list-roman">
+                                <li class="list-item">Paragraph Text</li>
+                            </ol>
+                        </li>
+                    </ul>
+
+                </li>
+                <li class="list-item">Title 2
+                    <ol class="list-alpha">
+                        <li class="list-item">Sub Title 1</li>
+                        <li class="list-item">Sub Title 2</li>
+                        <li class="list-item">Sub Title 3
+                            <ul class="list-bullet">
+                                <li class="list-item">Paragraph Text</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </li>
+                <li class="list-item">Title 3
+                    <ol class="list-roman">
+                        <li class="list-item">Sub Title 1</li>
+                        <li class="list-item">Sub Title 2</li>
+                        <li class="list-item">Sub Title 3</li>
+                    </ol>
+                </li>
+            </ol>
+        </ul>
+    </div>
+    <div class="list-container">
+        <aside class="hero-drawer" id="Drawer">
+            <div class="drawer-header">
+                <h3 class="drawer-title">Title</h3>
+                <h6 class="drawer-subtext">subtext</h6>
+            </div>
+            <div class="drawer-content">
+                <nav class="drawer-content-list">
+                    <a href="#Drawer" class="list-item-drawer show">
+                        <span class="material-icons icons">inbox</span>
+                        <span class="item-title">Inbox</span>
+                    </a>
+                    <a href="#Drawer" class="list-item-drawer show">
+                        <span class="material-icons icons">star</span>
+                        <span class="item-title">Star</span>
+                    </a>
+                    <a href="#Drawer" class="list-item-drawer show">
+                        <span class="material-icons icons">send</span>
+                        <span class="item-title">Sent Mail</span>
+                    </a>
+                    <a href="#Drawer" class="list-item-drawer show">
+                        <span class="material-icons icons">drafts</span>
+                        <span class="item-title">Draft</span>
+                    </a>
+                </nav>
+            </div>
+        </aside>
+    </div>
+    <div class="list-container">
+        <h1>Stacked List</h1>
+        <div class="stacked-list">
+            <div class="d-flex align-center gap margin-16px">
+                <div class="img-container">
+                    <img class="avatar-image"
+                        src="https://static.toiimg.com/thumb/resizemode-4,msid-76729750,imgsize-249247,width-720/76729750.jpg"
+                        alt="image">
+                </div>
+                <div class="name d-flex align-center justify-center">
+                    <span>List Item 1</span>
+                    <input class="check-input" type="checkbox">
+                </div>
+            </div>
+            <div class="d-flex align-center gap margin-16px">
+                <div class="img-container">
+                    <img class="avatar-image"
+                        src="https://www.nj.com/resizer/zovGSasCaR41h_yUGYHXbVTQW2A=/1280x0/smart/cloudfront-us-east-1.images.arcpublishing.com/advancelocal/SJGKVE5UNVESVCW7BBOHKQCZVE.jpg"
+                        alt="image">
+                </div>
+                <div class="name d-flex align-center justify-center">
+                    <span>List Item 2</span>
+                    <input class="check-input" type="checkbox">
+                </div>
+            </div>
+            <div class="d-flex align-center gap margin-16px">
+                <div class="img-container">
+                    <img class="avatar-image"
+                        src="https://d.newsweek.com/en/full/1592734/facebook-avatar.jpg?w=1600&h=1600&q=88&f=f188f5e40bbb7411e5435a4659bcba86"
+                        alt="image">
+                </div>
+                <div class="name d-flex align-center justify-center">
+                    <span>List Item 3</span>
+                    <input class="check-input" type="checkbox">
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
