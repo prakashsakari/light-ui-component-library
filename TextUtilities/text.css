@@ -1,0 +1,92 @@
+@import url("/styles/reset.css");
+@import url("/styles/utility.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    margin: 1rem 0;
+    border: 1px solid var(--accent-color);
+    padding: .5rem;
+    width: 70%;
+}
+
+.title {
+    width: max-content;
+    border-bottom: 1px solid var(--text-color-primary);
+}
+
+.text {
+    padding: 8px;
+}
+
+.heading-1{
+    line-height: 4rem;
+    font-size: 3rem;
+}
+
+.heading-2{
+    line-height: 2.5rem;
+    font-size: 2rem;
+}
+
+.heading-3{
+    line-height: 2rem;
+    font-size: 1.5rem;
+}
+
+.heading-4{
+    line-height: 1.5rem;
+    font-size: 1rem;
+}
+
+.heading-5{
+    line-height: 1rem;
+    font-size: 8px;
+}
+
+.para-1 {
+    line-height: 4rem;
+    font-size: 3rem;
+}
+
+.para-2{
+    line-height: 2.5rem;
+    font-size: 2rem;
+}
+
+.para-3{
+    line-height: 2rem;
+    font-size: 1.5rem;
+}
+
+.para-4{
+    line-height: 1.5rem;
+    font-size: 1rem;
+}
+
+.para-5{
+    line-height: 1rem;
+    font-size: 8px;
+}
+
+.semi-bold {
+    font-weight: 600;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gray-text {
+    color: var(--accent-color);
+}
