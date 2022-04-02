@@ -32,6 +32,10 @@ body {
     height: 3rem;
 }
 
+.icon-round {
+    border-radius: 50%;
+}
+
 .mr-1 {
     margin-right: 1rem;
 }
@@ -41,6 +45,11 @@ body {
     font-weight: 700;
     letter-spacing: 1px;
     color: var(--text-color);
+    
+}
+
+.nav-link-padding {
+    padding: .5rem 6rem .5rem .5rem;
 }
 
 .side-nav {
@@ -52,8 +61,7 @@ body {
 }
 
 .list-non-bullet{
-    list-style: none;
-    
+    list-style: none;  
 }
 
 .mt-2 {
@@ -67,7 +75,7 @@ body {
 
 .pointer:hover {
     background-color: var(--accent-color);
-    border-radius: 8px;
+    border-radius: 0 2rem 2rem 0;
     cursor: pointer;
 }
 
