@@ -16,7 +16,6 @@
 
 .title {
     width: max-content;
-    border-bottom: 1px solid var(--text-color-primary);
 }
 
 .text {

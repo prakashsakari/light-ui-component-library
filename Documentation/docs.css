@@ -5,10 +5,14 @@
 @import url("/Badge/badge.css");
 @import url("/Button/button.css");
 @import url("/Card/card.css");
+@import url("/Grid/grid.css");
 @import url("/Image/image.css");
 @import url("/Input/input.css");
+@import url("/List/list.css");
+@import url("/Modal/modal.css");
 @import url("/Navigation/nav.css");
 @import url("/Rating/rating.css");
+@import url("/TextUtilities/text.css");
 @import url("/Toast/toast.css");
 @import url("/main.css");
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap');
@@ -58,6 +62,7 @@ body {
     width: 17rem;
     padding: 2rem;
     height: 100vh;
+    overflow: auto;
 }
 
 .list-non-bullet{
@@ -130,4 +135,8 @@ iframe {
 
 .sub-heading {
     padding: 1rem 0;
+}
+
+.go-up {
+    bottom: 2rem;
 }
