@@ -1,7 +1,7 @@
 let cardBody = document.querySelector(".card-body");
-let openModalBtn = document.querySelector(".open-modal-btn"); 
-let closeBtn = document.querySelector(".close-btn"); 
-let modalBtn = document.querySelectorAll(".modal-btn"); 
+let openModalBtn = document.querySelector(".open-modal-btn");  
+let saveBtn = document.querySelector(".save"); 
+let cancelBtn = document.querySelector(".cancel"); 
 
 function closeModal() {
     cardBody.style.display = "none";
@@ -14,9 +14,5 @@ function openModal(){
 }
 
 openModalBtn.addEventListener("click", openModal);
-
-closeBtn.addEventListener("click", closeModal);
-
-for (let button of modalBtn){
-    button.addEventListener("click", closeModal);
-}
+saveBtn.addEventListener("click", closeModal);
+cancelBtn.addEventListener("click", closeModal);
