@@ -1,0 +1,72 @@
+@import url("/styles/reset.css");
+@import url("/styles/utility.css");
+
+.modal-container {
+    height: 90vh;
+}
+
+.card-body {
+    display: none;
+}
+
+.close-btn {
+    margin-left: auto;
+    font-size: 1rem;
+}
+
+.button {
+    font-size: 1.2rem;
+    padding: .5rem 1.5rem;
+    border: none;
+    border-radius: .25rem;
+    background: transparent;
+}
+
+.cursor:hover {
+    cursor: pointer;
+    opacity: .85;
+}
+
+.btn-primary {
+    background: var(--primary-color);
+    color: var(--text-color-secondary);
+    font-weight: 700;
+}
+
+.btn-secondary {
+    background: var(--secondary-color);
+    color: var(--text-color-primary);
+    font-weight: 700;
+}
+
+.modal-cta {
+    justify-content: flex-end;
+    padding: 0 1.5rem 8px 0;
+
+}
+
+.modal-btn {
+    font-size: 1.2rem;
+    padding: 4px .875rem;
+
+}
+
+.card-text-body {
+    width: 25rem;
+    background-color: var(--card-background);
+    border-radius: 8px;
+}
+
+.padding {
+    padding: .75rem .875rem;
+}
+
+.card-header {
+    border-bottom: 1px solid var(--border-color);
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.card-content {
+    font-size: .875rem;
+}

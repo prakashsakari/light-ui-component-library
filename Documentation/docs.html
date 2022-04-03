@@ -10,6 +10,8 @@
         content="Light Ui is a component library that help you build awesome UI wihtout any hassle">
     <title>Light Ui | Documentation</title>
     <link rel="shortcut icon" href="/assets/cl_logo.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <link rel="stylesheet" href="docs.css">
 </head>
 
@@ -35,10 +37,14 @@
                 <li class="list-item"><a class="link pointer nav-link-padding" href="#Badge">Badge</a></li>
                 <li class="list-item"><a class="link pointer nav-link-padding" href="#Button">Button</a></li>
                 <li class="list-item"><a class="link pointer nav-link-padding" href="#Card">Card</a></li>
+                <li class="list-item"><a class="link pointer nav-link-padding" href="#Grid">Grid</a></li>
                 <li class="list-item"><a class="link pointer nav-link-padding" href="#Image">Image</a></li>
                 <li class="list-item"><a class="link pointer nav-link-padding" href="#Input">Input</a></li>
+                <li class="list-item"><a class="link pointer nav-link-padding" href="#List">List</a></li>
+                <li class="list-item"><a class="link pointer nav-link-padding" href="#Modal">Modal</a></li>
                 <li class="list-item"><a class="link pointer nav-link-padding" href="#Navigation">Navigation</a></li>
                 <li class="list-item"><a class="link pointer nav-link-padding" href="#Rating">Rating</a></li>
+                <li class="list-item"><a class="link pointer nav-link-padding" href="#Text">Text</a></li>
                 <li class="list-item"><a class="link pointer nav-link-padding" href="#Toast">Toast</a></li>
             </ul>
         </aside>
@@ -66,7 +72,7 @@
                         style="height: 100px; border:0; transform: scale(1); overflow:hidden;"
                         sandbox="allow-scripts allow-same-origin">
                     </iframe>
-        
+
                 </div>
             </section>
             <!-- Alert -->
@@ -345,10 +351,10 @@
                 </div>
                 <div class="snippet">
                     <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=vscode&wt=none&l=htmlmixed&width=675.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=146%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-text-body%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2520padding%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-title%2522%253ECard%2520Title%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-content%2520padding%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520Sample%2520text%2520goes%2520here%2520%2520%2520%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
-                    style="height: 290px; border:0; transform: scale(1); overflow:hidden;"
-                    sandbox="allow-scripts allow-same-origin">
-                </iframe>
+                        src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=vscode&wt=none&l=htmlmixed&width=675.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=146%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-text-body%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2520padding%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-title%2522%253ECard%2520Title%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-content%2520padding%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520Sample%2520text%2520goes%2520here%2520%2520%2520%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="height: 290px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
                 </div>
                 <h2 class="sub-heading">Vertical Card</h2>
                 <p><em>Note:</em> To <span class="bg-color pd-3 br-5">add showdaow effect</span> to card, <span
@@ -517,6 +523,45 @@
                 </div>
             </section>
 
+            <section id="Grid" class="grid-container section">
+                <div class="about-section">
+                    <h1 class="section-heading">Simplified Grid</h1>
+                    <p class="alert-details">Grid component has two variants <span class="bg-color pd-3 br-5">Two column
+                            grid</span>, and <span class="bg-color pd-3 br-5">Three colummn grid</span>
+                    </p>
+                </div>
+                <h2 class="sub-heading">Two column Grid</h2>
+                <div class="comp-container">
+                    <div class="grid-container-two-col">
+                        <div class="box box-1 d-flex align-center justify-center"> Box 1 </div>
+                        <div class="box box-1 d-flex align-center justify-center"> Box 2 </div>
+                    </div>
+                </div>
+                <div class="snippet">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=vscode&wt=none&l=htmlmixed&width=689&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=124%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid-container-two-col%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522box%2520box-1%2520d-flex%2520align-center%2520justify-center%2522%253E%2520Box%25201%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522box%2520box-1%2520d-flex%2520align-center%2520justify-center%2522%253E%2520Box%25202%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
+                        style="height: 148px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <h2 class="sub-heading">Three column Grid</h2>
+                <div class="comp-container">
+                    <div class="grid-container-three-col">
+                        <div class="box box-1 d-flex align-center justify-center"> Box 1 </div>
+                        <div class="box box-1 d-flex align-center justify-center"> Box 2 </div>
+                        <div class="box box-1 d-flex align-center justify-center"> Box 3 </div>
+                    </div>
+                </div>
+                <div class="snippet">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=vscode&wt=none&l=htmlmixed&width=689&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=124%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid-container-three-col%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522box%2520box-1%2520d-flex%2520align-center%2520justify-center%2522%253E%2520Box%25201%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522box%2520box-1%2520d-flex%2520align-center%2520justify-center%2522%253E%2520Box%25202%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522box%2520box-1%2520d-flex%2520align-center%2520justify-center%2522%253E%2520Box%25203%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="height: 148px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+            </section>
+
             <!-- Image -->
             <section id="Image" class="image-container section">
                 <div class="about-section">
@@ -543,10 +588,10 @@
                 </div>
                 <div class="snippet">
                     <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=vscode&wt=none&l=htmlmixed&width=675.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=146%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522img-round%2522%2520src%253D%2522%252Fassets%252Fshoes.jpg%2522%2520alt%253D%2522shoes%2522%253E"
-                    style="height: 100px; border:0; transform: scale(1); overflow:hidden;"
-                    sandbox="allow-scripts allow-same-origin">
-                </iframe>
+                        src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=vscode&wt=none&l=htmlmixed&width=675.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=146%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522img-round%2522%2520src%253D%2522%252Fassets%252Fshoes.jpg%2522%2520alt%253D%2522shoes%2522%253E"
+                        style="height: 100px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
                 </div>
             </section>
 
@@ -590,6 +635,233 @@
                     </iframe>
                 </div>
             </section>
+
+            <!-- List -->
+            <section id="List" class="section">
+                <div class="about-section">
+                    <h1 class="section-heading">List</h1>
+                    <p class="alert-details">
+                        Lists are continuous, vertical indexes of text or images.
+                    </p>
+                </div>
+                <h2 class="sub-heading">Unordered List</h2>
+                <div class="comp-container">
+                    <ul class="list-style">
+                        <li class="list-item">List Item 1</li>
+                        <li class="list-item">List Item 2</li>
+                        <li class="list-item">List Item 3</li>
+                    </ul>
+                </div>
+                <div class="snippet">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=vscode&wt=none&l=htmlmixed&width=689&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=124%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522list-style%2522%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EList%2520Item%25201%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EList%2520Item%25202%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EList%2520Item%25203%253C%252Fli%253E%250A%253C%252Ful%253E"
+                        style="height: 148px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <h2 class="sub-heading">Ordered List</h2>
+                <div class="comp-container">
+                    <ol class="list-style">
+                        <li class="list-item">List Item 1</li>
+                        <li class="list-item">List Item 2</li>
+                        <li class="list-item">List Item 3</li>
+                    </ol>
+                </div>
+                <div class="snippet">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=vscode&wt=none&l=htmlmixed&width=689&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=124%25&si=false&es=2x&wm=false&code=%253Col%2520class%253D%2522list-style%2522%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EList%2520Item%25201%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EList%2520Item%25202%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EList%2520Item%25203%253C%252Fli%253E%250A%253C%252Fol%253E"
+                        style="height: 148px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <h2 class="sub-heading">Nested List</h2>
+                <div class="comp-container">
+                    <ul class="list-style">
+                        <ol>
+                            <li class="list-item">Title 1
+                                <ul class="list-bullet">
+                                    <li class="list-item">Sub Title 1</li>
+                                    <li class="list-item">Sub Title 2
+                                        <ol class="list-roman">
+                                            <li class="list-item">Paragraph Text</li>
+                                        </ol>
+                                    </li>
+                                </ul>
+
+                            </li>
+                            <li class="list-item">Title 2
+                                <ol class="list-alpha">
+                                    <li class="list-item">Sub Title 1</li>
+                                    <li class="list-item">Sub Title 2
+                                        <ul class="list-bullet">
+                                            <li class="list-item">Paragraph Text</li>
+                                        </ul>
+                                    </li>
+                                </ol>
+                            </li>
+                            <li class="list-item">Title 3
+                                <ol class="list-roman">
+                                    <li class="list-item">Sub Title 1</li>
+                                    <li class="list-item">Sub Title 2
+                                        <ul class="list-bullet">
+                                            <li class="list-item">Paragraph Text</li>
+                                        </ul>
+                                    </li>
+                                </ol>
+                            </li>
+                        </ol>
+                    </ul>
+                </div>
+                <div class="snippet">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=vscode&wt=none&l=htmlmixed&width=689&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=124%25&si=false&es=2x&wm=false&code=%250A%2520%2520%2520%253Cul%2520class%253D%2522list-style%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Col%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253ETitle%25201%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522list-bullet%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253ESub%2520Title%25201%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253ESub%2520Title%25202%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Col%2520class%253D%2522list-roman%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EParagraph%2520Text%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fol%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253ETitle%25202%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Col%2520class%253D%2522list-alpha%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253ESub%2520Title%25201%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253ESub%2520Title%25202%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522list-bullet%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EParagraph%2520Text%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fol%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253ETitle%25203%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Col%2520class%253D%2522list-roman%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253ESub%2520Title%25201%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253ESub%2520Title%25202%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522list-bullet%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EParagraph%2520Text%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fol%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fol%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E"
+                        style="height: 705px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <h2 class="sub-heading">Stacked List with Icon</h2>
+                <div class="comp-container">
+                    <aside class="hero-drawer" id="Drawer">
+                        <div class="drawer-header">
+                            <h3 class="drawer-title">Title</h3>
+                            <h6 class="drawer-subtext">subtext</h6>
+                        </div>
+                        <div class="drawer-content">
+                            <nav class="drawer-content-list">
+                                <a href="#Drawer" class="list-item-drawer show">
+                                    <span class="material-icons icons">inbox</span>
+                                    <span class="item-title">Inbox</span>
+                                </a>
+                                <a href="#Drawer" class="list-item-drawer show">
+                                    <span class="material-icons icons">star</span>
+                                    <span class="item-title">Star</span>
+                                </a>
+                                <a href="#Drawer" class="list-item-drawer show">
+                                    <span class="material-icons icons">send</span>
+                                    <span class="item-title">Sent Mail</span>
+                                </a>
+                                <a href="#Drawer" class="list-item-drawer show">
+                                    <span class="material-icons icons">drafts</span>
+                                    <span class="item-title">Draft</span>
+                                </a>
+                            </nav>
+                        </div>
+                    </aside>
+                    <div class="snippet">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=vscode&wt=none&l=htmlmixed&width=689&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=124%25&si=false&es=2x&wm=false&code=%253Caside%2520class%253D%2522hero-drawer%2522%2520id%253D%2522Drawer%2522%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522drawer-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522drawer-title%2522%253ETitle%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%253Ch6%2520class%253D%2522drawer-subtext%2522%253Esubtext%253C%252Fh6%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522drawer-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cnav%2520class%253D%2522drawer-content-list%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523Drawer%2522%2520class%253D%2522list-item-drawer%2520show%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2520icons%2522%253Einbox%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522item-title%2522%253EInbox%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523Drawer%2522%2520class%253D%2522list-item-drawer%2520show%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2520icons%2522%253Estar%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522item-title%2522%253EStar%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523Drawer%2522%2520class%253D%2522list-item-drawer%2520show%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2520icons%2522%253Esend%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522item-title%2522%253ESent%2520Mail%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523Drawer%2522%2520class%253D%2522list-item-drawer%2520show%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2520icons%2522%253Edrafts%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522item-title%2522%253EDraft%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fnav%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Faside%253E"
+                            style="height: 526px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </div>
+                <h2 class="sub-heading">Stacked List with Avatar</h2>
+                <div class="comp-container">
+                    <div class="stacked-list">
+                        <div class="d-flex align-center gap margin-16px">
+                            <div class="img-container">
+                                <img class="avatar-image"
+                                    src="https://static.toiimg.com/thumb/resizemode-4,msid-76729750,imgsize-249247,width-720/76729750.jpg"
+                                    alt="image">
+                            </div>
+                            <div class="name d-flex align-center justify-center">
+                                <span>List Item 1</span>
+                                <input class="check-input" type="checkbox">
+                            </div>
+                        </div>
+                        <div class="d-flex align-center gap margin-16px">
+                            <div class="img-container">
+                                <img class="avatar-image"
+                                    src="https://www.nj.com/resizer/zovGSasCaR41h_yUGYHXbVTQW2A=/1280x0/smart/cloudfront-us-east-1.images.arcpublishing.com/advancelocal/SJGKVE5UNVESVCW7BBOHKQCZVE.jpg"
+                                    alt="image">
+                            </div>
+                            <div class="name d-flex align-center justify-center">
+                                <span>List Item 2</span>
+                                <input class="check-input" type="checkbox">
+                            </div>
+                        </div>
+                        <div class="d-flex align-center gap margin-16px">
+                            <div class="img-container">
+                                <img class="avatar-image"
+                                    src="https://d.newsweek.com/en/full/1592734/facebook-avatar.jpg?w=1600&h=1600&q=88&f=f188f5e40bbb7411e5435a4659bcba86"
+                                    alt="image">
+                            </div>
+                            <div class="name d-flex align-center justify-center">
+                                <span>List Item 3</span>
+                                <input class="check-input" type="checkbox">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="snippet">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=vscode&wt=none&l=htmlmixed&width=689&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=124%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522stacked-list%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522d-flex%2520align-center%2520gap%2520margin-16px%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522img-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-image%2522%2520src%253D%2522imgae-url%2522%2520alt%253D%2522image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522name%2520d-flex%2520align-center%2520justify-center%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253EList%2520Item%25201%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522check-input%2522%2520type%253D%2522checkbox%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522d-flex%2520align-center%2520gap%2520margin-16px%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522img-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-image%2522%2520src%253D%2522imgae-url%2522%2520alt%253D%2522image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522name%2520d-flex%2520align-center%2520justify-center%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253EList%2520Item%25202%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522check-input%2522%2520type%253D%2522checkbox%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522d-flex%2520align-center%2520gap%2520margin-16px%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522img-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-image%2522%2520src%253D%2522image-url%2522%2520alt%253D%2522image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522name%2520d-flex%2520align-center%2520justify-center%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253EList%2520Item%25203%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522check-input%2522%2520type%253D%2522checkbox%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="height: 579px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </section>
+
+            <!-- Modal -->
+            <section id="Modal" class="section">
+                <div class="about-section">
+                    <h1 class="section-heading">Modal</h1>
+                    <p class="alert-details">
+                        Modal adds dialogs to your website for lightboxes, user notifications, or completely custom content.
+                    </p>
+                </div>
+                <h2 class="sub-heading">Standard Modal</h2>
+                <div class="comp-container">
+                    <div class="card-text-body">
+                        <div class="card-header padding d-flex align-center">
+                            <div class="card-title">Modal Title</div>
+                            <button class="button cursor close-btn"><img src="/assets/close.png"></button>
+                        </div>
+                        <div class="card-content padding">
+                             Lorem Ipsum is simply dummy text of the printing and typesetting
+                             industry. Lorem Ipsum has been the industry's standard dummy text ever
+                             since the 1500s, when an unknown printer took a galley of type and
+                             scrambled it to make a type specimen book.
+                        </div>
+                        <div class="cta-btn d-flex align-center modal-cta  gap">
+                            <button class="button btn-primary cursor modal-btn">Save</button>
+                            <button class="button btn-secondary cursor modal-btn">Cancel</button>
+                        </div>
+                    </div>
+                </div> 
+                <h2 class="sub-heading">Live Demo</h2>
+                <div class="comp-container">
+                    <div class="d-flex align-center justify-center">
+                        <button class="button btn-primary cursor open-modal-btn">Open Modal</button>
+                        <div class="card-body">
+                            <div class="card-text-body">
+                                <div class="card-header padding d-flex align-center">
+                                    <div class="card-title">Modal Title</div>
+                                    <button class="button cursor close-btn"><img src="/assets/close.png"></button>
+                                </div>
+                                <div class="card-content padding">
+                                     Lorem Ipsum is simply dummy text of the printing and typesetting
+                                     industry. Lorem Ipsum has been the industry's standard dummy text ever
+                                     since the 1500s, when an unknown printer took a galley of type and
+                                     scrambled it to make a type specimen book.
+                                </div>
+                                <div class="cta-btn d-flex align-center modal-cta  gap">
+                                    <button class="button btn-primary cursor modal-btn">Save</button>
+                                    <button class="button btn-secondary cursor modal-btn">Cancel</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="snippet">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=vscode&wt=none&l=htmlmixed&width=689&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=124%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522d-flex%2520align-center%2520justify-center%2522%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520btn-primary%2520cursor%2520open-modal-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520Open%2520Modal%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-text-body%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2520padding%2520d-flex%2520align-center%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-title%2522%253EModal%2520Title%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520cursor%2520close-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522image-url%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-content%2520padding%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520Ipsum%2520is%2520simply%2520dummy%2520text%2520of%2520the%2520printing%2520and%2520%2520typesetting%2520industry.%2520Lorem%2520Ipsum%2520has%2520been%2520the%2520industry%27s%2520standard%2520dummy%2520text%2520ever%2520since%2520the%25201500s%252C%2520when%2520an%2520unknown%2520printer%2520took%2520a%2520galley%2520of%2520type%2520and%250Ascrambled%2520it%2520to%2520make%2520a%2520type%2520specimen%2520book.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cta-btn%2520d-flex%2520align-center%2520modal-cta%2520%2520gap%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520btn-primary%2520cursor%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520modal-btn%2522%253ESave%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520btn-secondary%2520cursor%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520modal-btn%2522%253ECancel%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%2520"
+                        style="height: 526px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </section>
+
             <!-- Navigation -->
             <section id="Navigation" class="nav-container section">
                 <div class="about-section">
@@ -597,7 +869,6 @@
                     <p class="alert-details">
                         Navigation bar is used to navigate through the web app or websites.
                     </p>
-
                 </div>
                 <h2 class="sub-heading">Standard Navigation</h2>
                 <div class="comp-container">
@@ -641,7 +912,7 @@
 
                 </div>
                 <h2 class="sub-heading">Standard Rating</h2>
-                <p><em>Note:</em>To remove the color from the star just remove the class checked and to
+                <p><em>Note:</em>To add the color to the star add the class checked and to
                     increase/decrease the size use <span class="bg-color pd-3 br-5">fa-3x</span>, <span
                         class="bg-color pd-3 br-5">fa-4x</span> and so on.</p>
                 <div class="comp-container ">
@@ -667,6 +938,88 @@
                     </iframe>
                 </div>
             </section>
+
+            <!-- Text Utilities -->
+            <section id="Text" class="section">
+                <div class="about-section">
+                    <h1 class="section-heading">Text Utilities</h1>
+                    <p class="alert-details">
+                        Documentation and examples for common text utilities to control alignment, wrapping, weight, and more.
+                    </p>
+                </div>
+                <h2 class="sub-heading">Typography (Heading)</h2>
+                <p><em>Note:</em>Typography titles have different size than the regular size for heading element <span class="bg-color pd-3 br-5">for h1 fontsize is 64px and line height is 48px</span>, <span class="bg-color pd-3 br-5">for h2 fontsize is 40px and line height is 32px</span>, <span class="bg-color pd-3 br-5">for h3 fontsize is 32px and line height is 24px</span>, <span class="bg-color pd-3 br-5">for h4 fontsize is 24px and line height is 16px</span>, <span class="bg-color pd-3 br-5">for h5 fontsize is 16px and line height is 8px</span>,</p>
+                <div class="comp-container ">
+                    <h1 class="text heading-1">Top level heading - Title 1</h1>
+                    <h2 class="text heading-2">Second top level heading - Title 2</h2>
+                    <h3 class="text heading-3">Third top level heading - Title 3</h3>
+                    <h4 class="text heading-4">Forth top level heading - Title 4</h4>
+                    <h5 class="text heading-5">Fifth top level heading - Title 5</h5>
+                </div>
+                <div class="snippet">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=vscode&wt=none&l=htmlmixed&width=689&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=124%25&si=false&es=2x&wm=false&code=%253Ch1%2520class%253D%2522text%2520heading-1%2522%253ETop%2520level%2520heading%2520-%2520Title%25201%253C%252Fh1%253E%250A%253Ch2%2520class%253D%2522text%2520heading-2%2522%253ESecond%2520top%2520level%2520heading%2520-%2520Title%25202%253C%252Fh2%253E%250A%253Ch3%2520class%253D%2522text%2520heading-3%2522%253EThird%2520top%2520level%2520heading%2520-%2520Title%25203%253C%252Fh3%253E%250A%253Ch4%2520class%253D%2522text%2520heading-4%2522%253EForth%2520top%2520level%2520heading%2520-%2520Title%25204%253C%252Fh4%253E%250A%253Ch5%2520class%253D%2522text%2520heading-5%2522%253EFifth%2520top%2520level%2520heading%2520-%2520Title%25205%253C%252Fh5%253E"
+                        style="height: 148px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <h2 class="sub-heading">Typography (Text)</h2>
+                <p><em>Note:</em>Typography text have different size than the regular size for heading element <span class="bg-color pd-3 br-5">for h1 fontsize is 64px and line height is 48px</span>, <span class="bg-color pd-3 br-5">for h2 fontsize is 40px and line height is 32px</span>, <span class="bg-color pd-3 br-5">for h3 fontsize is 32px and line height is 24px</span>, <span class="bg-color pd-3 br-5">for h4 fontsize is 24px and line height is 16px</span>, <span class="bg-color pd-3 br-5">for h5 fontsize is 16px and line height is 8px</span>,</p>
+                <div class="comp-container ">
+                    <p class="text para-1">This is top level paragraph - Para 1</p>
+                    <p class="text para-2">Second top level paragraph - Para 2</p>
+                    <p class="text para-3">Third top level paragraph - Para 3</p>
+                    <p class="text para-4">Forth top level paragraph - Para 4</p>
+                    <p class="text para-5">Fifth top level paragraph - Para 5</p>
+                </div>
+                <div class="snippet">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=vscode&wt=none&l=htmlmixed&width=689&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=124%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522text%2520para-1%2522%253EThis%2520is%2520top%2520level%2520paragraph%2520-%2520Para%25201%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text%2520para-2%2522%253ESecond%2520top%2520level%2520paragraph%2520-%2520Para%25202%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text%2520para-3%2522%253EThird%2520top%2520level%2520paragraph%2520-%2520Para%25203%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text%2520para-4%2522%253EForth%2520top%2520level%2520paragraph%2520-%2520Para%25204%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text%2520para-5%2522%253EFifth%2520top%2520level%2520paragraph%2520-%2520Para%25205%253C%252Fp%253E"
+                        style="height: 148px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <h2 class="sub-heading">Typography (Small Text)</h2>
+                <div class="comp-container ">
+                    <small class="text">This is a smaller text</small>
+                    <small class="text semi-bold">This is a smaller semibold text</small>
+                    <small class="text bold">This is a smaller bold text</small>
+                </div>
+                <div class="snippet">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=vscode&wt=none&l=htmlmixed&width=689&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=124%25&si=false&es=2x&wm=false&code=%253Csmall%2520class%253D%2522text%2522%253EThis%2520is%2520a%2520smaller%2520text%253C%252Fsmall%253E%250A%253Csmall%2520class%253D%2522text%2520semi-bold%2522%253EThis%2520is%2520a%2520smaller%2520semibold%2520text%253C%252Fsmall%253E%250A%253Csmall%2520class%253D%2522text%2520bold%2522%253EThis%2520is%2520a%2520smaller%2520bold%2520text%253C%252Fsmall%253E"
+                        style="height: 112px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <h2 class="sub-heading">Typography (Center Text)</h2>
+                <div class="comp-container ">
+                    <div class="center text">
+                        <p>This is a center text</p>
+                    </div>
+                </div>
+                <div class="snippet">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=vscode&wt=none&l=htmlmixed&width=689&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=124%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522center%2520text%2522%253E%250A%2520%2520%2520%2520%253Cp%253EThis%2520is%2520a%2520center%2520text%253C%252Fp%253E%250A%253C%252Fdiv%253E"
+                        style="height: 112px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <h2 class="sub-heading">Typography (Gray Text)</h2>
+                <div class="comp-container ">
+                    <div class="text gray-text">
+                        <p>This is a gray text</p>
+                    </div>
+                </div>
+                <div class="snippet">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=vscode&wt=none&l=htmlmixed&width=689&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=124%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522text%2520gray-text%2522%253E%250A%2520%2520%2520%2520%253Cp%253EThis%2520is%2520a%2520gray%2520text%253C%252Fp%253E%250A%253C%252Fdiv%253E"
+                        style="height: 112px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </section>
+
             <!-- Toast -->
             <section id="Toast" class="alert-container section">
                 <div class="about-section">
@@ -674,7 +1027,6 @@
                     <p class="alert-details">
                         Toast displays notification to a user.
                     </p>
-
                 </div>
                 <h2 class="sub-heading">Standard Toast</h2>
                 <p>Toast can appear on any four corners of the screen or at the bottom center of the screen</p>
@@ -713,6 +1065,12 @@
                     </iframe>
                 </div>
             </section>
+            <button class="go-up button btn-secondary btn-float d-flex align-center gap justify-center cursor fixed right-0">
+                <a href="#Usage" class="link">
+                    <img src="/assets/arrow-black.png" alt="up">
+                </a>
+                
+            </button>
         </main>
     </div>
     <footer class="footer d-flex direction-column align-center">
@@ -729,7 +1087,7 @@
             </a>
         </div>
     </footer>
-
+    <script src="/Modal/modal.js"></script>
 </body>
 
 </html>
