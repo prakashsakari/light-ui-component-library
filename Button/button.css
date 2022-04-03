@@ -114,5 +114,7 @@
     font-size: 3rem;
 }
 
-
+.disable[disabled]:hover{
+    opacity: .8;
+}
 
