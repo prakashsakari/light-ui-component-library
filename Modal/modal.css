@@ -16,7 +16,7 @@
 
 .modal-button {
     font-size: 1.2rem;
-    padding: .5rem 1.5rem;
+    padding: 4px .875rem;
     border: none;
     border-radius: .25rem;
     background: transparent;
@@ -42,13 +42,6 @@
 .modal-cta {
     justify-content: flex-end;
     padding: 0 1.5rem 8px 0;
-
-}
-
-.modal-btn {
-    font-size: 1.2rem;
-    padding: 4px .875rem;
-
 }
 
 .card-text-body {
