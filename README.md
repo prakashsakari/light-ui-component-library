@@ -33,15 +33,23 @@ To use the components you can either import the style sheet in your css file or 
 
 [5. Card](https://uilight.netlify.app/documentation/docs#Card)
 
-[6. Image](https://uilight.netlify.app/documentation/docs#Image)
+[6. Grid](https://uilight.netlify.app/documentation/docs#Grid)
 
-[7. Input](https://uilight.netlify.app/documentation/docs#Input)
+[7. Image](https://uilight.netlify.app/documentation/docs#Image)
 
-[8. Navigation](https://uilight.netlify.app/documentation/docs#Navigation)
+[8. Input](https://uilight.netlify.app/documentation/docs#Input)
 
-[9. Rating](https://uilight.netlify.app/documentation/docs#Rating)
+[9. List](https://uilight.netlify.app/documentation/docs#List)
 
-[10. Toast](https://uilight.netlify.app/documentation/docs#Toast)
+[10. Modal](https://uilight.netlify.app/documentation/docs#Modal)
+
+[11. Navigation](https://uilight.netlify.app/documentation/docs#Navigation)
+
+[12. Rating](https://uilight.netlify.app/documentation/docs#Rating)
+
+[13. Text](https://uilight.netlify.app/documentation/docs#Text)
+
+[14. Toast](https://uilight.netlify.app/documentation/docs#Toast)
 
 
 
@@ -51,7 +59,7 @@ To use the components you can either import the style sheet in your css file or 
 **HTML** **CSS**
 
 
-## Authors
+## Author
 
 - [@prakashsakari](https://www.github.com/prakashsakari)
 
