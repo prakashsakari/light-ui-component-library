@@ -78,6 +78,10 @@
     color: var(--text-color);
 }
 
+.cart-btn {
+    width: 100%;
+}
+
 .badge-close {
     top: 1rem;
     right: 1rem;
